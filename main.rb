@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 require_relative 'gameclear'
-game = Game.new()
+game = Game.new
 
 puts 'Welcome to Tic-Tac-Toe'
 puts 'Player 1 is O, Player 2 is X'

@@ -23,6 +23,7 @@ class Board
     return false if @board.any? do |row|
       row.any? { |square| square == '' }
     end
+
     true
   end
 
