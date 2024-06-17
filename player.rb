@@ -1,5 +1,9 @@
 class Player
-  def initialize(shape)
-    @shape = shape
+  def initialize(marker)
+    @marker = marker
+  end
+
+  def marker
+    marker
   end
 end
