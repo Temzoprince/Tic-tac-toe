@@ -8,10 +8,14 @@ class Board
   end
 
   def place_marker(row, column, marker)
-    if @board[row - 1][column - 1].empty?
-      @board[row - 1][column - 1] = marker
+    if @board[row.to_i - 1][column.to_i - 1].empty?
+      @board[row.to_i - 1][column.to_i - 1] = marker
+      puts ''
+      display_board
+      true
     else
       puts 'That spot has already been filled. Go again'
+      false
     end
   end
 

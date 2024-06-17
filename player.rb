@@ -4,6 +4,6 @@ class Player
   end
 
   def marker
-    marker
+    @marker
   end
 end
